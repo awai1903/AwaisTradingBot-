@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Signal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="future">
+  <h2>Select the category:</h2>
+  <select id="category">
+    <option value="none">None</option>
+    <option value="all">All</option>
+    <option value="crypto">Crypto</option>
+    <option value="forex">Forex</option>
+    <option value="stocks">Stocks</option>
+    <option value="commodity">Commodity</option>
+  </select>
+  <button id="getSignalBtn" onclick="getSignal()">Get Signal</button>
+  <div id="signalResult"></div>
+  <script src="script.js"></script>
+</body>
+</html>
